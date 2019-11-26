@@ -7,7 +7,7 @@ header{
     background-color:#ffffff;
 	border-bottom: 10px solid #95b1ec;
 	color: #95b1ec;
-	text-align: center;
+	display: flex;
     font-family: 'Arial';
     margin-left: auto;
     margin-right: auto;
@@ -19,14 +19,64 @@ header{
     padding: 2%;
 }
 
+
+span.header-title{
+    line-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    justify-content: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: xx-large;
+}
+
+span.header-logo{
+    
+    
+}
+
+img.logo{
+	text-align: left;
+	margin-left: 20px;
+	width: 100px;
+	height: 100px;
+}
+
 h2, h3 {
     font-family: 'Arial';
 }
 
+div.menu{
+    display: flex;
+    height: 50px;
+    line-height: 40px;
+
+    justify-content: space-evenly;
+}
+
+div.domestico{
+	text-align: center;
+	border-style: groove;
+	border-width: 10%;
+	color: white;
+    background-color: gray;
+    width: 100%;
+    
+}
+
+div.corporativo{
+	text-align: center;
+	border-style: groove;
+	border-width: 10%;
+	color: white;
+    background-color: gray;
+    width: 100%;
+}
 
 main{
 	font-family: 'Roboto', sans-serif;
-    width: 55%;
+    width: 95%;
     height: 969px;
 	margin-left: auto;
 	margin-right: auto;
@@ -39,7 +89,7 @@ nav {
     color: tan;
     list-style: none;
     width: 10vw;
-    height: 87vh;
+    height: 100%;
     background-color: darkcyan;
     float: right;
 }
