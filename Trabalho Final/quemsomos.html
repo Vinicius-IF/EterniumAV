@@ -4,30 +4,72 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no">
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link rel="stylesheet" href="css/site.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" href="css/quemsomos.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
 		<title>Quem Somos</title>
 	</head>
 	<body class="grid-container">
 		<header>
-			<img src="Enternium-Logo.png" class="logo" alt="Enternium-Logo"/>
-			<h1>Eternium AV</h1>
+			<span class="header-logo">
+				<a href="index.html">
+					<img src="Enternium-Logo.png" class="logo" alt="Enternium-Logo"/>
+				</a>
+			</span>
+			<span class="header-title">
+				Eternium AV
+			</span>
 		</header>
-		
+
+		<div class="menu">
+			<div class="quemsomos">
+				<a class="mapa-item" href="quemsomos.html">Quem Somos</a>
+			</div>
+		</div>
+
 		<main>
 			<p>Eternium Anti Virus</p>
 			<p>A EterniumAV é uma Startup de softwares de segurança em tecnologia da informação criada em 2019 pelos amigos Matheus Costa e Vinícius Rufino. Matheus e Vinícuis tinham o sonho de criar um produto com um conceito diferente dos anti-virus que já conheciam e que também fosse mais acessível.
             Nosso objetivo é fornecer produtos simples e de baixo custo, gerenciados em modelo “As a Service”, para os mercados doméstico e corporativo. Contamos com um ecossistema de parceiros que abrange desde grandes corporações a free-lancers.</p>
 		</main>
-		<nav>
-			Mapa do Site
-		</nav>
-	
-		
-		<footer>	
+		<footer>
+			<div class="mapa">
+				<div class="mapa-titulo">
+					<h2>Mapa do Site</h2>
+				</div>
+				<ul id="mapa" style="list-style-type:circle;">
+					<li>
+						<dl>
+							<dt><a class="mapa-item" href="index.html">Home</a></dt>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>Produtos</dt>
+							<dd>
+								<a class="mapa-item" href="domestico.html">Domestico</a>
+							</dd>
+							<dd>
+								<a class="mapa-item" href="corporativo.html">Corporativo</a>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>Contato</dt>
+							<dd>
+								<a class="mapa-item" href="quemsomos.html">Quem somos</a>
+							</dd>
+							<dd>
+								<a class="mapa-item" href="faleconosco.html">Fale Conosco</a>
+							</dd>
+						</dl>
+					</li>
+				  </ul> 
+			</div>
+			<div class="copyright">
 				&copy; Eternium AV 2019
+			</div>	
 		</footer>
-		
 	</body>
 </html>
