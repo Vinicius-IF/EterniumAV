@@ -1,0 +1,114 @@
+body{
+    font-family: 'Roboto', sans-serif;
+	margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background-color:#ffffff;
+	border-bottom: 10px solid #95b1ec;
+	color: #95b1ec;
+	display: flex;
+    font-family: 'Arial';
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+    border-bottom-width: 10%;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    padding: 2%;
+}
+
+main{
+	font-family: 'Roboto', sans-serif;
+    width: 90%;
+    height: 100%;
+	margin-left: auto;
+    margin-right: auto;
+    padding: 2vw;
+}
+
+
+span.header-title{
+    line-height: 100;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    justify-content: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: xx-large;
+}
+
+
+img.logo{
+	text-align: left;
+	margin-left: 20px;
+	width: 100px;
+	height: 100px;
+}
+
+h2, h3 {
+    font-family: inherit;
+    font-size: 20;
+}
+
+div.menu{
+    display: flex;
+    height: 30px;
+    line-height: 25;
+
+    justify-content: space-evenly;
+}
+
+div.quemsomos{
+	text-align: center;
+	border-style: groove;
+	border-width: 10%;
+	color: white;
+    background-color: gray;
+    width: 100%;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+footer{
+    background-color: darkcyan;
+    color: white;
+    width: 100%;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+@media screen and (max-width: 600px){
+    
+    body{
+    margin-left: none;
+    margin-right: none;
+    width: 100%;
+    }
+    
+    header{
+    margin-left: none;
+    margin-right: none;
+    width: 96%;
+    }
+    main{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2vw;
+        width: 90%;
+        height: 100%;
+    }
+
+
+}

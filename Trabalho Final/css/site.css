@@ -19,9 +19,31 @@ header{
     padding: 2%;
 }
 
+main{
+	font-family: 'Roboto', sans-serif;
+    width: 80%;
+    height: 100%;
+	margin-left: auto;
+    margin-right: 11vw;
+    padding: 2vw;
+}
+
+nav {
+    display: float;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    list-style: none;
+    width: 10vw;
+    height: 85vh;
+    background-color: darkcyan;
+    float: right;
+    padding: 1vw;
+}
+
 
 span.header-title{
-    line-height: 100px;
+    line-height: 100;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -44,13 +66,14 @@ img.logo{
 }
 
 h2, h3 {
-    font-family: 'Arial';
+    font-family: inherit;
+    font-size: 20;
 }
 
 div.menu{
     display: flex;
     height: 50px;
-    line-height: 40px;
+    line-height: 40;
 
     justify-content: space-evenly;
 }
@@ -74,28 +97,7 @@ div.corporativo{
     width: 100%;
 }
 
-main{
-	font-family: 'Roboto', sans-serif;
-    width: 80%;
-    height: 100%;
-	margin-left: auto;
-    margin-right: 11vw;
-    padding: 2vw;
-}
 
-nav {
-    display: float;
-    font-family: 'Roboto', sans-serif;
-    font-size: 100%;
-    text-align: center;
-    list-style: none;
-    width: 10vw;
-    height: 70vh;
-    background-color: darkcyan;
-    float: right;
-
-    padding: 1vw;
-}
 
 a{
     text-decoration: none;
@@ -116,6 +118,10 @@ footer{
     width: 100%;
     margin-left: auto;
 	margin-right: auto;
+}
+
+#mapa li {
+    
 }
 
 table{
@@ -150,10 +156,11 @@ th{
     width: 96%;
     }
     main{
-        margin-left: none;
-        margin-right: none;
-        width: 100%;
-        height: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2vw;
+        width: 90%;
+        height: 100%;
     }
     nav{
         display: flex;
