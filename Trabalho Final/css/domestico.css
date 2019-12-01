@@ -125,20 +125,28 @@ footer{
     border-top-style: solid; 
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 510px){
     
     body{
 	width: 720px;
 	margin-left: auto;
-	margin-right: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: #00BFFF;
     }
     
     header{
-    width: 96%;
+    width: 96.1%;
     }
 
     main{
-        padding: 2vw;
+        
+    }
+    #notebook{
+        width: 50%;
+    }
+    #family{
+        width: 48%;
     }
     #VV{
         max-width: 100%;
