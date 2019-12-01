@@ -15,23 +15,56 @@ header{
     width: 96%;
     border-bottom-width: 10%;
     border-top-width: 0;
-    border-right-width: 0;\
+    border-right-width: 0;
     border-left-width: 0;
     padding: 2%;
 }
 
 main{
 	font-family: 'Roboto', sans-serif;
-    padding: 2vw;
     font-size: 20;
     text-align: justify;
     border-color:  #00BFFF;
     border-style: solid;
     border-bottom:  5px solid #00BFFF;
-    
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-collapse: collapse;
 }
-
-
+#plan{
+    border-color: #00BFFF;
+    border-style: solid;
+    border-top: none;
+    padding: 2%;
+    margin: none;
+    text-align: center;
+}
+#notebook{
+    border-style: solid;
+    border-color: #00BFFF;
+    font-size: 80%;
+    display: inline-block;
+    width: 48.5%;
+    height: 100%;
+}
+#family{
+    border-style: solid;
+    border-color: #00BFFF;
+    font-size: 80%;
+    display: inline-block;
+    width: 48.2%;
+    height: 100%;
+    float: right;
+}
+#CC{
+    height: 35vh;
+}
+#advanced{
+    border-style: solid;
+    border-color: #00BFFF;
+}
 span.header-title{
     line-height: 3;
     margin-left: auto;
