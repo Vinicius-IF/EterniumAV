@@ -1,0 +1,115 @@
+body{
+    font-family: 'Roboto', sans-serif;
+	margin-left: none;
+    margin-right: none;
+    border-collapse: collapse;
+}
+header{
+    background-color:#ffffff;
+	border-bottom: 5px solid #00BFFF;
+	color: #95b1ec;
+	display: flex;
+    font-family: 'Arial';
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+    border-bottom-width: 10%;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    padding: 2%;
+}
+
+main{
+	font-family: 'Roboto', sans-serif;
+    padding: 2vw;
+    font-size: 20;
+    text-align: justify;
+    border-color:  #00BFFF;
+    border-style: solid;
+    border-bottom:  5px solid #00BFFF;
+    
+}
+
+
+span.header-title{
+    line-height: 3;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    justify-content: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: xx-large;
+}
+
+
+img.logo{
+	text-align: left;
+	margin-left: 20px;
+	width: 100px;
+	height: 100px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2, h3 {
+    font-family: inherit;
+    font-size: 20;
+    
+}
+
+#Meio{
+    padding: 3%;
+    font-family: inherit;
+    font-size: 20;
+    text-align: center;
+    border-color:  #00BFFF;
+    border-style: solid;
+    border-bottom:  5px solid #00BFFF;
+}
+
+#EnviarButton{
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#VV{
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer{
+    background-color: #95b1ec;
+    color: white;
+    border-top-color: #00BFFF;
+    border-top-style: solid; 
+}
+
+@media screen and (min-width: 600px){
+    
+    body{
+	width: 720px;
+	margin-left: auto;
+	margin-right: auto;
+    }
+    
+    header{
+    width: 96%;
+    }
+
+    main{
+        padding: 2vw;
+    }
+    #VV{
+        max-width: 100%;
+    
+    }
+
+}
