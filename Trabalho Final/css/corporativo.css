@@ -1,11 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif;
-	margin-left: auto;
-    margin-right: auto;
+	margin-left: none;
+    margin-right: none;
+    border-collapse: collapse;
 }
 header{
     background-color:#ffffff;
-	border-bottom: 10px solid #95b1ec;
+	border-bottom: 5px solid #00BFFF;
 	color: #95b1ec;
 	display: flex;
     font-family: 'Arial';
@@ -21,16 +22,37 @@ header{
 
 main{
 	font-family: 'Roboto', sans-serif;
-    width: 90%;
-    height: 100%;
-	margin-left: auto;
+    font-size: 20;
+    text-align: justify;
+    border-color:  #00BFFF;
+    border-style: solid;
+    border-bottom:  5px solid #00BFFF;
+    margin-left: auto;
     margin-right: auto;
-    padding: 2vw;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-collapse: collapse;
 }
-
-
+#plan{
+    border-color: #00BFFF;
+    border-style: solid;
+    border-top: none;
+    padding: 2%;
+    margin: none;
+    text-align: center;
+}
+#notebook{
+    border-style: solid;
+    border-color: #00BFFF;
+    padding: 10px;
+}
+#advanced{
+    border-style: solid;
+    border-color: #00BFFF;
+    padding: 10px;
+}
 span.header-title{
-    line-height: 100;
+    line-height: 3;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -48,99 +70,68 @@ img.logo{
 	height: 100px;
 }
 
+h1{
+    text-align: center;
+}
+
 h2, h3 {
     font-family: inherit;
     font-size: 20;
+    
 }
 
-div.menu{
-    display: flex;
-    height: 50px;
-    line-height: 40;
-
-    justify-content: space-evenly;
-}
-
-div.corporativo{
-	text-align: center;
-	border-style: groove;
-	border-width: 10%;
-	color: white;
-    background-color: gray;
-    width: 100%;   
-}
-
-div.produto-box{
-    border-style: ridge;
-    padding-bottom: 5px;
-}
-
-div.main-titulo{
-	text-align: center;
-	border-width: 10%;
-	color: white;
-    background-color: gray;
-    width: 100%; 
-}
-
-div.produto{
-    padding: 5px;
-    background-color: white;
-}
-
-h4{
+#Meio{
+    padding: 3%;
+    font-family: inherit;
+    font-size: 20;
     text-align: center;
-    text-decoration: none;
+    border-color:  #00BFFF;
+    border-style: solid;
+    border-bottom:  5px solid #00BFFF;
 }
 
-p{
-    margin-left: 40px;
+#EnviarButton{
+    text-align: right;
 }
-
 a{
     text-decoration: none;
     color: white;
 }
 
-a.contratar{
-    border-style: double;
-    padding: 2px;
-    text-decoration: none;
-    color: black;
+#VV{
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
-
-
 
 footer{
-    background-color: darkcyan;
+    background-color: #95b1ec;
     color: white;
-    width: 100%;
-    margin-left: auto;
-	margin-right: auto;
+    border-top-color: #00BFFF;
+    border-top-style: solid; 
 }
 
-
-
-@media screen and (max-width: 600px){
+@media screen and (min-width: 510px){
     
     body{
-    margin-left: none;
-    margin-right: none;
-    width: 100%;
+	width: 720px;
+	margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: #00BFFF;
     }
     
     header{
-    margin-left: none;
-    margin-right: none;
-    width: 96%;
-    }
-    main{
-        margin-left: auto;
-        margin-right: auto;
-        padding: 2vw;
-        width: 90%;
-        height: 100%;
+    width: 96.1%;
     }
 
+    main{
+        
+    }
+    
+    #VV{
+        max-width: 100%;
+    
+    }
 
 }

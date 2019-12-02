@@ -2,10 +2,11 @@ body{
     font-family: 'Roboto', sans-serif;
 	margin-left: auto;
     margin-right: auto;
+    border-collapse: collapse;
 }
 header{
     background-color:#ffffff;
-	border-bottom: 10px solid #95b1ec;
+	border-bottom: 5px solid #00BFFF;
 	color: #95b1ec;
 	display: flex;
     font-family: 'Arial';
@@ -21,16 +22,17 @@ header{
 
 main{
 	font-family: 'Roboto', sans-serif;
-    width: 90%;
-    height: 100%;
-	margin-left: auto;
-    margin-right: auto;
     padding: 2vw;
+    font-size: 20;
+    text-align: center;
+    border-color:  #00BFFF;
+    border-style: solid;
+    border-bottom:  5px solid #00BFFF;
 }
 
 
 span.header-title{
-    line-height: 100;
+    line-height: 3;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -48,66 +50,51 @@ img.logo{
 	height: 100px;
 }
 
+h1{
+    text-align: center;
+}
+
 h2, h3 {
     font-family: inherit;
     font-size: 20;
-}
-
-div.menu{
-    display: flex;
-    height: 30px;
-    line-height: 25;
-
-    justify-content: space-evenly;
-}
-
-div.quemsomos{
-	text-align: center;
-	border-style: groove;
-	border-width: 10%;
-	color: white;
-    background-color: gray;
-    width: 100%;
     
 }
 
-
+#suaconta{
+    padding: 3%;
+    font-family: inherit;
+    font-size: 20;
+    text-align: center;
+    border-color:  #00BFFF;
+    border-style: solid;
+    border-bottom:  5px solid #00BFFF;
+}
 a{
     text-decoration: none;
     color: white;
 }
 
-
-
 footer{
-    background-color: darkcyan;
+    background-color: #95b1ec;
     color: white;
-    width: 100%;
-    margin-left: auto;
-	margin-right: auto;
+    border-top-color: #00BFFF;
+    border-top-style: solid; 
 }
 
-
-
-@media screen and (max-width: 600px){
+@media screen and (min-width: 600px){
     
     body{
-    margin-left: none;
-    margin-right: none;
-    width: 100%;
+	width: 720px;
+	margin-left: auto;
+	margin-right: auto;
     }
     
     header{
-    margin-left: none;
-    margin-right: none;
     width: 96%;
     }
+
     main{
-        margin-left: auto;
-        margin-right: auto;
         padding: 2vw;
-        width: 90%;
-        height: 100%;
     }
 
 
