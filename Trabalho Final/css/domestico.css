@@ -27,10 +27,6 @@ main{
     border-color:  #00BFFF;
     border-style: solid;
     border-bottom:  5px solid #00BFFF;
-    margin-left: auto;
-    margin-right: auto;
-    margin-left: 50px;
-    margin-right: 50px;
     border-collapse: collapse;
 }
 #plan{
@@ -46,7 +42,7 @@ main{
     border-color: #00BFFF;
     font-size: 80%;
     display: inline-block;
-    width: 48.5%;
+    width: 49.09%;
     height: 100%;
 }
 #family{
@@ -54,7 +50,7 @@ main{
     border-color: #00BFFF;
     font-size: 80%;
     display: inline-block;
-    width: 48.2%;
+    width: 48.9%;
     height: 100%;
     float: right;
 }
@@ -143,10 +139,10 @@ footer{
         
     }
     #notebook{
-        width: 50%;
+        width: 49.3%;
     }
     #family{
-        width: 48%;
+        width: 49.3%;
     }
     #VV{
         max-width: 100%;
