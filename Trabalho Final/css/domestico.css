@@ -42,7 +42,6 @@ main{
     border-style: solid;
     border-color: #00BFFF;
     font-size: 80%;
-    display: inline-block;
     width: 48.9%;
     height: 100%;
     float: left;
@@ -52,7 +51,6 @@ main{
     border-style: solid;
     border-color: #00BFFF;
     font-size: 80%;
-    display: inline-block;
     width: 49%;
     float: left;
     height: 100%;
@@ -140,9 +138,6 @@ footer{
     width: 96.1%;
     }
 
-    main{
-        
-    }
     #notebook{
         width: 49.3%;
     }
