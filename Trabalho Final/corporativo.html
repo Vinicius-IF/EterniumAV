@@ -3,50 +3,58 @@
 <html lang="pt-BR">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, user-scalable=no">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link rel="icon" href="Enternium-Logo.png">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" href="css/corporativo.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
 		<title>Corporativo</title>
 	</head>
-	<body class="grid-container">
+	
+        <body>
+			
 		<header>
-			<span class="header-logo">
-				<a href="index.html">
-					<img src="Enternium-Logo.png" class="logo" alt="Enternium-Logo"/>
-				</a>
-			</span>
+			<img src="Enternium-Logo.png" class="logo" alt="Enternium-Logo"/>
 			<span class="header-title">
 				Eternium AV
 			</span>
 		</header>
 
-		<div class="menu">
-			<div class="corporativo">
-				<a class="mapa-item" href="corporativo.html">Corporativo</a>
-			</div>
-		</div>
-
+		<div  id="Meio">
+			Corporativo
+        </div>
+        
 		<main>
-            <div class="produto-box">
-                <div class="main-titulo">Planos</div>
-                <div class="produto">
-                    <h4>Eternium Corporate</h4>
-                    <p>Loprem Ipsum</p>
-                    <span>
-                        <a class="contratar" href="faleconosco.html">Contratar</a>
-                    </span>
-                </div>
-                <div class="produto">
-                    <h4>Eternium Corporate Advanced</h4>
-                    <p>Loprem Ipsum</p>
-                    <span>
-                        <a class="contratar" href="faleconosco.html">Contratar</a>
-                    </span>
-                </div>
+
+            <div id="plan">
+                Planos
             </div>
+
+            
+            <div id="notebook">
+                <h1>Eternium Corporate</h1>
+
+                <p>Nosso pacote básico para empresas, das pequenas startups às grandes corporações, o Eternium Corporate oferece tudo que você precisa para se proteger contra as ameaças de um mundo cada vez mais complexo e computadorizado.
+					Nosso DNA é como o seu, empreendedor, e por isso aprendemos que um produto de segurança que atende às nossas necessidades deve ser acessível e escalável. O Eternium Corporate se adapta ao contexto econômico da sua empresa e evolui conforme cresce a sua infraestrutura.
+					Não se preocupe quanto ao tamanho de sua empresa e as perspectivas de crescimento dela. Nós confiamos no seu potencial e estamos preparados para percorrer essa trajetória com você.
+					Acredite em nós porque acreditamos em você. Experimente um mês grátis com avaliações diárias de até 20 máquinas individuais e monitoramento completo para até 5 servidores.
+                </p>
+                <input type="button" value="Contratar" />
+            </div>
+        
+            
+            <div id="advanced">
+                <h1>Eternium Corporate Advanced</h1>
+                <p>Eternium Corporate Advanced é um produto elaborado para empresas que estão em fase de aceleração e não podem arriscar estar por fora das transformações regulatórias e riscos crescentes do munfo globalizado.
+					Com atualizações semanais e relatórios completos dos acontecimentos que podem afetar seus sistemas, nosso melhor produto, a prata da casa, garante que você e sua equipe possam estar seguros 24 horas por dia.
+					Experimente o produto mais resiliente do mercado de softwares de segurança e presente em empresas que totalizam mais de 100mil usuários ativos.<br>
+                    
+				</p>
+				<input type="button" value="Contratar" />
+            </div>
+
 		</main>
-		<footer>
+        <footer>
 			<div class="mapa">
 				<div class="mapa-titulo">
 					<h2>Mapa do Site</h2>
@@ -55,6 +63,11 @@
 					<li>
 						<dl>
 							<dt><a class="mapa-item" href="index.html">Home</a></dt>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><a class="mapa-item" href="suaconta.html">Sua Conta</a></dt>
 						</dl>
 					</li>
 					<li>
@@ -84,6 +97,8 @@
 			<div class="copyright">
 				&copy; Eternium AV 2019
 			</div>	
-		</footer>
+        </footer>
+        
+        <script src="js/faleconosco.js"></script>
 	</body>
 </html>
