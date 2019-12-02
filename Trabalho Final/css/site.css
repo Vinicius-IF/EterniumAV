@@ -35,11 +35,12 @@ nav {
     text-align: center;
     list-style: none;
     width: 10vw;
-    height: 85vh;
+    height: 60vh;
     background-color: darkcyan;
     float: right;
     padding: 1vw;
 }
+
 
 
 span.header-title{
@@ -143,7 +144,7 @@ th{
 
 
 @media screen and (max-width: 600px){
-    
+	
     body{
     margin-left: none;
     margin-right: none;

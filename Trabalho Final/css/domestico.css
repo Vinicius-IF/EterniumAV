@@ -39,15 +39,18 @@ main{
 }
 
 #family{
+	padding 2%;
     border-style: solid;
     border-color: #00BFFF;
     font-size: 80%;
-    width: 48.9%;
+    width: 48.5%;
     height: 100%;
-    float: left;
+    float: right;
+		border-left: none;
 }
 
 #notebook{
+	padding 2%;
     border-style: solid;
     border-color: #00BFFF;
     font-size: 80%;
