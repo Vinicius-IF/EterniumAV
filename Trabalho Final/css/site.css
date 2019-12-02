@@ -43,7 +43,7 @@ nav {
 
 
 span.header-title{
-    line-height: 100;
+    line-height: 3;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -73,7 +73,7 @@ h2, h3 {
 div.menu{
     display: flex;
     height: 50px;
-    line-height: 40;
+    line-height: 3;
 
     justify-content: space-evenly;
 }
