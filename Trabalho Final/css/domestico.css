@@ -37,14 +37,7 @@ main{
     margin: none;
     text-align: center;
 }
-#notebook{
-    border-style: solid;
-    border-color: #00BFFF;
-    font-size: 80%;
-    display: inline-block;
-    width: 49.09%;
-    height: 100%;
-}
+
 #family{
     border-style: solid;
     border-color: #00BFFF;
@@ -52,9 +45,21 @@ main{
     display: inline-block;
     width: 48.9%;
     height: 100%;
-    float: right;
+    float: left;
 }
+
+#notebook{
+    border-style: solid;
+    border-color: #00BFFF;
+    font-size: 80%;
+    display: inline-block;
+    width: 49%;
+    float: left;
+    height: 100%;
+}
+
 #CC{
+    
     height: 35vh;
 }
 #advanced{
